@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+/* 
+.container{
+    width: 30%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+@keyframes error {
+    0%, 100%{
+        transform: rotate(0deg);
+    }
+
+    20%{
+        transform: rotate(40deg); 
+    }
+    40%{
+        transform: rotate(-40deg); 
+    }
+    60%{
+        transform: rotate(40deg); 
+    }
+
+    80%{
+        transform: rotate(-40deg); 
+    }
+    
+}
+
+.abox{
+    width: 150%;
+    height: 150%;
+    position: absolute;
+    z-index: -1;
+    animation: a 3s linear infinite;
+}
+
+@keyframes a{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+
+}
+
+.abox::before, .abox::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.abox::before{
+    background: repeating-conic-gradient(#45f3ff 0%, #45f3ff 5%, transparent 5%, transparent 40%, #45f3ff 50%);
+    transform: rotate(-45deg);
+}
+
+.abox::after{
+    background: repeating-conic-gradient(#ff45ff 0%, #ff45ff 5%, transparent 5%, transparent 40%, #ff45ff 50%);
+    transform: rotate(45deg);
+}
+
+.container form{
+    width: 98%;
+    height: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.container form input{
+    width: 95%;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    padding: 4px;
+    font-variant: small-caps;
+    outline: none;
+    border: 0.5px solid;
+  }
+
+  .container form input:focus{
+    background-color: #45f3ff;
+    color: #fff;
+  }
+ #massage{
+    color: limegreen;
+    text-transform: capitalize;
+    margin-top: 10px;
+    display: none;
+ }
+
+ .b{
+    display: block !important;
+ }
+
+#button{
+    width: 95%;
+    padding: 0.5rem 1.5rem;
+    background-color: rgb(8, 188, 220);
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.error_animation{
+    animation: error 0.4s linear !important;
+}
+
+.red{
+    border: 1px solid red !important;
+} */
+#m_1{
+    width: 100vw;
+    height: 100px;
+}
